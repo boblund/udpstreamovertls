@@ -13,7 +13,7 @@ alice client.html <--- UDP ---> bobProxy <=== TLS socket ===> aliceProxy <--- UD
 ```
 ## Usage
 
-config.js is setup for running all components on 'localhost'
+config.js is set up for running all components on 'localhost'
 
 Start in the following order:
 
