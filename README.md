@@ -2,6 +2,7 @@
 
 ## Overview
 
+```
 alice client.html <--- UDP ---> bobProxy <=== TLS socket ===> aliceProxy <--- UDP ---> bob client.html
         |                               \                    /                              |
         |                                \ UDP              / UDP                           |
@@ -9,7 +10,7 @@ alice client.html <--- UDP ---> bobProxy <=== TLS socket ===> aliceProxy <--- UD
         |                                  \              /                                 |
         |                                   \            /                                  |
         --------------- websocket ----------- server.js --------------- websocket -----------
-
+```
 ## Usage
 
 config.js is setup for running all components on 'localhost'
@@ -22,3 +23,4 @@ node bobProxy.js
 node server.js
 open (or browser 'open file') client.html; login as alice
 open (or browser 'open file') client.html; login as bob
+```
